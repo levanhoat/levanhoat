@@ -1,0 +1,1257 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:15:47 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (2.7ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (19.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:21:23 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (3.2ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (19.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:21:26 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (3.4ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (27.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:28:42 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (1.8ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.6ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (17.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:30:36 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (1.9ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.6ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (20.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:30:37 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (1.9ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.7ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (20.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:32:08 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (2.6ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (18.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:32:12 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (2.0ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (20.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:32:13 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (2.1ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.2ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (21.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:32:22 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (3.1ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.8ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (22.4ms)
+
+
+Started PUT "/console/repl_sessions/4" for 127.0.0.1 at 2015-11-09 20:32:23 +0700
+
+
+Started PUT "/console/repl_sessions/4" for 127.0.0.1 at 2015-11-09 20:32:23 +0700
+
+
+Started PUT "/console/repl_sessions/4" for 127.0.0.1 at 2015-11-09 20:32:23 +0700
+
+
+Started PUT "/console/repl_sessions/4" for 127.0.0.1 at 2015-11-09 20:32:24 +0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:32:28 +0700
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.2) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.2) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:18:in `middleware_call'
+  web-console (2.0.0.beta3) lib/action_dispatch/debug_exceptions.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  puma (2.11.1) lib/puma/server.rb:507:in `handle_request'
+  puma (2.11.1) lib/puma/server.rb:375:in `process_client'
+  puma (2.11.1) lib/puma/server.rb:262:in `block in run'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `call'
+  puma (2.11.1) lib/puma/thread_pool.rb:104:in `block in spawn_thread'
+
+
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_source.erb (2.0ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/_web_console.html.erb (1.1ms)
+  Rendered /home/levanhoat/.rvm/gems/ruby-2.1.2/gems/web-console-2.0.0.beta3/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (19.4ms)
+  [1m[36m (109.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar, "remember_digest" varchar, "admin" boolean) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (88.7ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (86.6ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar NOT NULL) 
+  [1m[36m (87.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (86.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151106075809')[0m
+  [1m[35m (44.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151029153825')
+  [1m[36m (66.6ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151026123517')[0m
+  [1m[35m (66.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151026123402')
+  [1m[36m (55.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151026122552')[0m
+  [1m[36m (97.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (77.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20151026122552)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151026122552"]]
+  [1m[35m (67.4ms)[0m  commit transaction
+Migrating to AddIndexToUsersEmail (20151026123402)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151026123402"]]
+  [1m[35m (74.0ms)[0m  commit transaction
+Migrating to AddPasswordDigestToUsers (20151026123517)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "password_digest" varchar
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151026123517"]]
+  [1m[35m (78.2ms)[0m  commit transaction
+Migrating to AddRememberDigestToUsers (20151029153825)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "remember_digest" varchar
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151029153825"]]
+  [1m[35m (53.7ms)[0m  commit transaction
+Migrating to AddAdminToUsers (20151106075809)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "admin" boolean
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151106075809"]]
+  [1m[35m (53.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 20:33:43 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (96.1ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 3542ms (Views: 3533.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-3b60244c145e68ae117a4c5698796d3f1d653b1f52657b3e783efb2ec97b6298.css?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/turbolinks.self-680e388bf7f759d85e2dbe0044d33f55e12b26da721317111c01ec92e53df55e.js?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/bootstrap.self-cdea7efeac1597b89ddd6fd86b0e8e0bec5d5fb1fac9c6e8a045f2c59eef2d13.js?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/static_pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/assets/rails-c094bc3a4bf50e5bb477109e5cb0d213af27ad75b481c4df249f50974dbeefe6.png" for 127.0.0.1 at 2015-11-09 20:33:46 +0700
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-11-09 20:33:48 +0700
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (185.8ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 254ms (Views: 244.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-11-09 20:35:47 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RishlMHN7pKqtd+vSqqLjpR4ChRLSB/bDqYcBS+6bMGc674FzK7VsCHlv9BdDojMx4LEV/v/SXonTzHQRj7aEg==", "user"=>{"name"=>"levanhoat20081994", "email"=>"levanhoat20081994@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat20081994@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "levanhoat20081994"], ["email", "levanhoat20081994@gmail.com"], ["password_digest", "$2a$10$GNzugs1vo88XfKQo4gP6fONGHfhMvSLNNKwe3U78IDkM88iM9AIPy"], ["created_at", "2015-11-09 13:35:47.593351"], ["updated_at", "2015-11-09 13:35:47.593351"]]
+  [1m[36m (125.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 217ms (ActiveRecord: 126.4ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-11-09 20:35:47 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 74ms (Views: 67.8ms | ActiveRecord: 0.4ms)
+  [1m[36m (113.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (77.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20151026122552)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151026122552"]]
+  [1m[35m (80.1ms)[0m  commit transaction
+Migrating to AddIndexToUsersEmail (20151026123402)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151026123402"]]
+  [1m[35m (87.3ms)[0m  commit transaction
+Migrating to AddPasswordDigestToUsers (20151026123517)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  ALTER TABLE "users" ADD "password_digest" varchar
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151026123517"]]
+  [1m[35m (61.8ms)[0m  commit transaction
+Migrating to AddRememberDigestToUsers (20151029153825)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "remember_digest" varchar
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151029153825"]]
+  [1m[35m (64.8ms)[0m  commit transaction
+Migrating to AddAdminToUsers (20151106075809)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  ALTER TABLE "users" ADD "admin" boolean
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151106075809"]]
+  [1m[35m (53.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat20081994@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "admin", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["name", "levanhoat"], ["email", "levanhoat20081994@gmail.com"], ["password_digest", "$2a$10$J4nuFYdTkvbITPbZBUYW8uDgj3jLdmLPV4TdEYum2PWgT/y4dTCVK"], ["admin", "t"], ["created_at", "2015-11-09 14:54:00.398179"], ["updated_at", "2015-11-09 14:54:00.398179"]]
+  [1m[36m (118.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat200819941@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Julius Hilpert"], ["email", "levanhoat200819941@gmail.com"], ["password_digest", "$2a$10$0e99eNo8LO99EvqSKQWAFeyKQ87RIrs3OfIwHZm7t2RR6vkKqy6Ca"], ["created_at", "2015-11-09 14:54:00.915450"], ["updated_at", "2015-11-09 14:54:00.915450"]]
+  [1m[36m (102.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat200819942@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Priscilla Bins PhD"], ["email", "levanhoat200819942@gmail.com"], ["password_digest", "$2a$10$WELNvwjh8Zx8y6j1zjJt6uXlc0DBdaBi06U/SzSgmAp3AH/m3ujrS"], ["created_at", "2015-11-09 14:54:01.143279"], ["updated_at", "2015-11-09 14:54:01.143279"]]
+  [1m[36m (83.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat200819943@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Muriel Halvorson"], ["email", "levanhoat200819943@gmail.com"], ["password_digest", "$2a$10$YWV5lEu8WprsDy02uvCmHeK/DEtx0qNx9cf9x6ipZinKtgtE.avq6"], ["created_at", "2015-11-09 14:54:01.310218"], ["updated_at", "2015-11-09 14:54:01.310218"]]
+  [1m[36m (39.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat200819944@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Miss Heidi Harvey"], ["email", "levanhoat200819944@gmail.com"], ["password_digest", "$2a$10$Ve/6BdM4oANfztg/EivuU.Bwpdmq/DdAzHoAdMcMM30QBZSCk6.lu"], ["created_at", "2015-11-09 14:54:01.438654"], ["updated_at", "2015-11-09 14:54:01.438654"]]
+  [1m[36m (57.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat200819945@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Clay Collins IV"], ["email", "levanhoat200819945@gmail.com"], ["password_digest", "$2a$10$PFTInvM8lQ8ELGvEAn0U1.mDm7yHAboZ5jcGSQNBeN7E43ByeUd1a"], ["created_at", "2015-11-09 14:54:01.574774"], ["updated_at", "2015-11-09 14:54:01.574774"]]
+  [1m[36m (84.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat200819946@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Alexis O'Hara"], ["email", "levanhoat200819946@gmail.com"], ["password_digest", "$2a$10$XlohfrF4QBz/c6xjPvQUle7EWzYnVKIPxM9LW6u5guT8.vY36BS8W"], ["created_at", "2015-11-09 14:54:01.732396"], ["updated_at", "2015-11-09 14:54:01.732396"]]
+  [1m[36m (51.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat200819947@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Shea Walker"], ["email", "levanhoat200819947@gmail.com"], ["password_digest", "$2a$10$6NiEb6WiSRJeOKoKHQvwK.gd5ZnlmiIiaFHo8oty1tnVj.zeJ1wSu"], ["created_at", "2015-11-09 14:54:01.858875"], ["updated_at", "2015-11-09 14:54:01.858875"]]
+  [1m[36m (58.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat200819948@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "General Bechtelar"], ["email", "levanhoat200819948@gmail.com"], ["password_digest", "$2a$10$AqkSRIZOXmuWtsux6Oei4uRKO/jZXtaIQrYgBU19ofSYTngimAqO6"], ["created_at", "2015-11-09 14:54:01.993664"], ["updated_at", "2015-11-09 14:54:01.993664"]]
+  [1m[36m (56.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat200819949@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Everette King"], ["email", "levanhoat200819949@gmail.com"], ["password_digest", "$2a$10$tnEj/o05uqmeocrkeXVUC.UenuyCMDyn7LGiaMDnfEVrHbZJ/mXbK"], ["created_at", "2015-11-09 14:54:02.126784"], ["updated_at", "2015-11-09 14:54:02.126784"]]
+  [1m[36m (56.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199410@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Durward Hagenes"], ["email", "levanhoat2008199410@gmail.com"], ["password_digest", "$2a$10$en.AfweFOQJHZApHVgHC1.5wboRYacqMig.FUBEmSVOva72sodnHG"], ["created_at", "2015-11-09 14:54:02.258356"], ["updated_at", "2015-11-09 14:54:02.258356"]]
+  [1m[36m (58.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199411@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Taurean Blanda"], ["email", "levanhoat2008199411@gmail.com"], ["password_digest", "$2a$10$kb9mlvfxaQZklkgiamUlT.Y5/p6KrVjnkyukuhkX0zxcsuUDPY562"], ["created_at", "2015-11-09 14:54:02.391795"], ["updated_at", "2015-11-09 14:54:02.391795"]]
+  [1m[36m (92.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199412@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mrs. Lesley Berge"], ["email", "levanhoat2008199412@gmail.com"], ["password_digest", "$2a$10$p7mRuqj.8xWjXZZqvSLwcOBRxWKXBOs.rB/CwRPb40jCzZYBB5sV."], ["created_at", "2015-11-09 14:54:02.558180"], ["updated_at", "2015-11-09 14:54:02.558180"]]
+  [1m[36m (67.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199413@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Elizabeth Windler"], ["email", "levanhoat2008199413@gmail.com"], ["password_digest", "$2a$10$UzoA0HJx2fCZz0xKqCZu4.ozmQK/umga5rVfyDmFcv6HIxKyMwNVy"], ["created_at", "2015-11-09 14:54:02.701852"], ["updated_at", "2015-11-09 14:54:02.701852"]]
+  [1m[36m (69.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199414@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Rebekah McClure"], ["email", "levanhoat2008199414@gmail.com"], ["password_digest", "$2a$10$wUuawaSJVfqnBb4b6Kj86OjP7V4kiA4Iw4P6LP0ZgRCsBZvcwfcUm"], ["created_at", "2015-11-09 14:54:02.845357"], ["updated_at", "2015-11-09 14:54:02.845357"]]
+  [1m[36m (70.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199415@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Grayce Feest"], ["email", "levanhoat2008199415@gmail.com"], ["password_digest", "$2a$10$yF0ELzXWmKCkGiLl5HtWMuKrmRe8KD8gteVJqZgoCjRVnubyvL9Ka"], ["created_at", "2015-11-09 14:54:02.989961"], ["updated_at", "2015-11-09 14:54:02.989961"]]
+  [1m[36m (70.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199416@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Marian Hand"], ["email", "levanhoat2008199416@gmail.com"], ["password_digest", "$2a$10$Rt7ZAlc8hzKSGF5hYC.U5OStPuPYnWBRID1SGZuUzVVojDAYdDFWW"], ["created_at", "2015-11-09 14:54:03.134929"], ["updated_at", "2015-11-09 14:54:03.134929"]]
+  [1m[36m (97.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199417@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Eudora Hilll"], ["email", "levanhoat2008199417@gmail.com"], ["password_digest", "$2a$10$Umh6LYXEVafTnp3qnO0M5.y2OAgdgiemzSOpHCZcw.utHotGuFAnS"], ["created_at", "2015-11-09 14:54:03.307182"], ["updated_at", "2015-11-09 14:54:03.307182"]]
+  [1m[36m (75.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199418@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Damien Rodriguez"], ["email", "levanhoat2008199418@gmail.com"], ["password_digest", "$2a$10$OPAtZdtm3R711p54xJa59.Hep8GjmE7GhOHMThYFlZO3uO6V3ZrHi"], ["created_at", "2015-11-09 14:54:03.465122"], ["updated_at", "2015-11-09 14:54:03.465122"]]
+  [1m[36m (72.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199419@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mrs. Chaya Schmidt"], ["email", "levanhoat2008199419@gmail.com"], ["password_digest", "$2a$10$TVePVbHFoMKC5X4.CsImeepGYH8fBHdUk.Au1KG5tVcFBlFwmpHVq"], ["created_at", "2015-11-09 14:54:03.614229"], ["updated_at", "2015-11-09 14:54:03.614229"]]
+  [1m[36m (101.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199420@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Libby Cole"], ["email", "levanhoat2008199420@gmail.com"], ["password_digest", "$2a$10$fDh59d0rJm1viCyiAPl.tO6kQKttbM8fjP6sCFpIyEe3SDxfNaQJG"], ["created_at", "2015-11-09 14:54:03.789569"], ["updated_at", "2015-11-09 14:54:03.789569"]]
+  [1m[36m (69.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199421@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mary Pfeffer"], ["email", "levanhoat2008199421@gmail.com"], ["password_digest", "$2a$10$v6MQLUcgFnGSAoilwk6yVe.fpziwI7TtfXAGa5ZOp5paUMD2KlnHC"], ["created_at", "2015-11-09 14:54:03.934062"], ["updated_at", "2015-11-09 14:54:03.934062"]]
+  [1m[36m (70.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199422@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Jaylen Nicolas"], ["email", "levanhoat2008199422@gmail.com"], ["password_digest", "$2a$10$EDY/nseccVfZLFOWXTD4j.bY76Jmnj3S//NymhPD.EtcMdsV7xB9e"], ["created_at", "2015-11-09 14:54:04.077843"], ["updated_at", "2015-11-09 14:54:04.077843"]]
+  [1m[36m (79.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199423@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mr. Margarita Schneider"], ["email", "levanhoat2008199423@gmail.com"], ["password_digest", "$2a$10$RcdDeRLH4jSBxfNW2gIxP.2h6tKv1CN8SqLNKQ8V/okYuD7RrsdUG"], ["created_at", "2015-11-09 14:54:04.233534"], ["updated_at", "2015-11-09 14:54:04.233534"]]
+  [1m[36m (81.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199424@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Julie Rath"], ["email", "levanhoat2008199424@gmail.com"], ["password_digest", "$2a$10$w8OtEUfs6f4bOibydodDM.6OicL6LhXTPq.lbB/sTsc9Hk9x.KGoi"], ["created_at", "2015-11-09 14:54:04.392767"], ["updated_at", "2015-11-09 14:54:04.392767"]]
+  [1m[36m (77.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199425@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Brandy Senger"], ["email", "levanhoat2008199425@gmail.com"], ["password_digest", "$2a$10$GJDymKUdfNmEc4BYhuSPXen.YA3WD9UM275y/TLUq8ob3LMPDWplS"], ["created_at", "2015-11-09 14:54:04.546068"], ["updated_at", "2015-11-09 14:54:04.546068"]]
+  [1m[36m (57.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199426@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Margaret Thompson"], ["email", "levanhoat2008199426@gmail.com"], ["password_digest", "$2a$10$dVEm5/3dARYGzuphbcz9K.HVFQPBfAlf5hnfUL0p7.6Q72LqN8aMq"], ["created_at", "2015-11-09 14:54:04.680555"], ["updated_at", "2015-11-09 14:54:04.680555"]]
+  [1m[36m (68.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199427@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Irma Klocko"], ["email", "levanhoat2008199427@gmail.com"], ["password_digest", "$2a$10$t4XiL.ty5Pq.uZEe.hsIcuhAN/0joFK2Q80hnuBfnnX0T7ful3uMy"], ["created_at", "2015-11-09 14:54:04.822468"], ["updated_at", "2015-11-09 14:54:04.822468"]]
+  [1m[36m (81.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199428@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Serena Kub Jr."], ["email", "levanhoat2008199428@gmail.com"], ["password_digest", "$2a$10$eDDTy9MuuW0aNG4EA6Ku8.ONvL54rJigeBmQsnmCnJ4EPvRWyBn0u"], ["created_at", "2015-11-09 14:54:04.983255"], ["updated_at", "2015-11-09 14:54:04.983255"]]
+  [1m[36m (98.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199429@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Miss Shaina Wehner"], ["email", "levanhoat2008199429@gmail.com"], ["password_digest", "$2a$10$BpqNzNKYhI48aNF2ta2zSORmbSk0n70A79ZVcuWPJVIG/qotMm.ce"], ["created_at", "2015-11-09 14:54:05.162753"], ["updated_at", "2015-11-09 14:54:05.162753"]]
+  [1m[36m (75.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199430@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Ms. Ocie Abbott"], ["email", "levanhoat2008199430@gmail.com"], ["password_digest", "$2a$10$gfOHgGwN6I9SOqBKLmZnS.hJ3557RGcw791KymzBKA01MTJjUoaQi"], ["created_at", "2015-11-09 14:54:05.312461"], ["updated_at", "2015-11-09 14:54:05.312461"]]
+  [1m[36m (70.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199431@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Clark Kilback"], ["email", "levanhoat2008199431@gmail.com"], ["password_digest", "$2a$10$RclFyAQUuqSp54Bd.1C2L.jC67zNl7doe7MRBpEtVFOMgZ6LgzAb."], ["created_at", "2015-11-09 14:54:05.456276"], ["updated_at", "2015-11-09 14:54:05.456276"]]
+  [1m[36m (159.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199432@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Breanna Hilpert"], ["email", "levanhoat2008199432@gmail.com"], ["password_digest", "$2a$10$6OtMyyLg3zQ2lEBywrvJPOy6Iay4KbJ69AxIZqk8U.0vuRQ/47DE6"], ["created_at", "2015-11-09 14:54:05.691566"], ["updated_at", "2015-11-09 14:54:05.691566"]]
+  [1m[36m (70.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199433@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Maurine Lang"], ["email", "levanhoat2008199433@gmail.com"], ["password_digest", "$2a$10$65qYbjJfg8T2Hb6AjLDOb.xIKFvyB4EXFg/rM6j8jSuwz86oNkbm."], ["created_at", "2015-11-09 14:54:05.848914"], ["updated_at", "2015-11-09 14:54:05.848914"]]
+  [1m[36m (71.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199434@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Nicolas Schowalter"], ["email", "levanhoat2008199434@gmail.com"], ["password_digest", "$2a$10$8OVpavKIdUocPXjwmvCEZusSJzfbf8NhhTnELBlf.dEW2HB8HH/G."], ["created_at", "2015-11-09 14:54:06.002926"], ["updated_at", "2015-11-09 14:54:06.002926"]]
+  [1m[36m (50.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (1.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199435@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Barton Schaefer"], ["email", "levanhoat2008199435@gmail.com"], ["password_digest", "$2a$10$Pi6A8/73qfjOz3i/Gmvf5.mLJ3zaavAyrP/9ympiEXJL/XxvcDkCi"], ["created_at", "2015-11-09 14:54:06.136595"], ["updated_at", "2015-11-09 14:54:06.136595"]]
+  [1m[36m (72.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199436@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Vergie Huels IV"], ["email", "levanhoat2008199436@gmail.com"], ["password_digest", "$2a$10$zgGZ2I48OULcNCjadWxlVu2fT3TwC1TdWOqNSAJozaIPrW2g7wB9u"], ["created_at", "2015-11-09 14:54:06.288299"], ["updated_at", "2015-11-09 14:54:06.288299"]]
+  [1m[36m (53.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199437@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Lauryn Kerluke"], ["email", "levanhoat2008199437@gmail.com"], ["password_digest", "$2a$10$CmaMmKORkDe1drKvnbOMY.wAX.B8EdDhFAUdLtEwISeuP3CWurK0K"], ["created_at", "2015-11-09 14:54:06.419232"], ["updated_at", "2015-11-09 14:54:06.419232"]]
+  [1m[36m (91.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199438@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mrs. Darren Hintz"], ["email", "levanhoat2008199438@gmail.com"], ["password_digest", "$2a$10$UfsSD7jUir1CCC9VS3TOTe6mBSDRKqmHT3DUgZTDcYPujBcoJwrUS"], ["created_at", "2015-11-09 14:54:06.586585"], ["updated_at", "2015-11-09 14:54:06.586585"]]
+  [1m[36m (78.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199439@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Gonzalo Balistreri"], ["email", "levanhoat2008199439@gmail.com"], ["password_digest", "$2a$10$QJESgHv4Qt.0fouuPGWZ2OLnZGpiwUjQUfQQO5vyyEUYD2D20onhW"], ["created_at", "2015-11-09 14:54:06.741197"], ["updated_at", "2015-11-09 14:54:06.741197"]]
+  [1m[36m (67.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199440@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Nicole Wyman"], ["email", "levanhoat2008199440@gmail.com"], ["password_digest", "$2a$10$75VqXAbO7hnuwCq54iCQEetJ3SFl3wQF0FQOA0P6fLpSw1tHa02Fq"], ["created_at", "2015-11-09 14:54:06.884472"], ["updated_at", "2015-11-09 14:54:06.884472"]]
+  [1m[36m (69.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199441@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Miss Vance Schulist"], ["email", "levanhoat2008199441@gmail.com"], ["password_digest", "$2a$10$.oXViXXr97pOIo2oMRReDO3/Poy6A5Yt1HC0pOvFVePU.c2K227i6"], ["created_at", "2015-11-09 14:54:07.030639"], ["updated_at", "2015-11-09 14:54:07.030639"]]
+  [1m[36m (67.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199442@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Tom Connelly IV"], ["email", "levanhoat2008199442@gmail.com"], ["password_digest", "$2a$10$KyZl6bszeQCteZPLgGqLoeUDgNVcysPYOfeW1YOgUqdXrBAhjZtoi"], ["created_at", "2015-11-09 14:54:07.174432"], ["updated_at", "2015-11-09 14:54:07.174432"]]
+  [1m[36m (105.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199443@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Abdiel Von"], ["email", "levanhoat2008199443@gmail.com"], ["password_digest", "$2a$10$dNuwDLyFc63y105KX3.ouechtu6Q4Y6zTcIAdqbAyLoOND.JZTdTK"], ["created_at", "2015-11-09 14:54:07.360988"], ["updated_at", "2015-11-09 14:54:07.360988"]]
+  [1m[36m (178.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199444@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Forrest Howe II"], ["email", "levanhoat2008199444@gmail.com"], ["password_digest", "$2a$10$WTQyyxmzcth.f.SA5MHhD.bcc9Gv0cS1RctF0Ho1EA32Awjqxnu4m"], ["created_at", "2015-11-09 14:54:07.619427"], ["updated_at", "2015-11-09 14:54:07.619427"]]
+  [1m[36m (175.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199445@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Jaida Walter"], ["email", "levanhoat2008199445@gmail.com"], ["password_digest", "$2a$10$fZotCEKSHowIeIHDtffmGOiyNVA76qnEWm/uU8P5AnXcT/iMizR4O"], ["created_at", "2015-11-09 14:54:07.927480"], ["updated_at", "2015-11-09 14:54:07.927480"]]
+  [1m[36m (67.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199446@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mr. Reagan Koepp"], ["email", "levanhoat2008199446@gmail.com"], ["password_digest", "$2a$10$jcjA9vbQgouXwXMOgQyGxuv6iKF/5hm6UvAhrkBj4p4v6zys1b1hi"], ["created_at", "2015-11-09 14:54:08.069503"], ["updated_at", "2015-11-09 14:54:08.069503"]]
+  [1m[36m (58.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199447@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Bernardo Wolf"], ["email", "levanhoat2008199447@gmail.com"], ["password_digest", "$2a$10$c3zKU3Gh6fb4ubdswI86ge3Hql6hU2x/jKAVDDT51VCfGBXhSOfDm"], ["created_at", "2015-11-09 14:54:08.203944"], ["updated_at", "2015-11-09 14:54:08.203944"]]
+  [1m[36m (78.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199448@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Lexus Lindgren"], ["email", "levanhoat2008199448@gmail.com"], ["password_digest", "$2a$10$HW5uYFhir01kDBQrbul7GeVXqIIdl70A93xbtgX7fIqnqWOfm7aEu"], ["created_at", "2015-11-09 14:54:08.357625"], ["updated_at", "2015-11-09 14:54:08.357625"]]
+  [1m[36m (70.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199449@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Thomas Gutmann"], ["email", "levanhoat2008199449@gmail.com"], ["password_digest", "$2a$10$ioGfvuF4GqJow47RBP4h9ere1kDHZ1yE9hSf/J6mRDTHgQKSFz5U2"], ["created_at", "2015-11-09 14:54:08.504846"], ["updated_at", "2015-11-09 14:54:08.504846"]]
+  [1m[36m (67.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199450@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Orland Halvorson Sr."], ["email", "levanhoat2008199450@gmail.com"], ["password_digest", "$2a$10$/J33SohC02pM7huWUUSR7ewKpbsdEnFKV3CMHxgZ505LVGwyH7rBK"], ["created_at", "2015-11-09 14:54:08.646097"], ["updated_at", "2015-11-09 14:54:08.646097"]]
+  [1m[36m (60.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199451@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Chyna Quigley"], ["email", "levanhoat2008199451@gmail.com"], ["password_digest", "$2a$10$iaho6rlwhUchoUFYwDfmfOA4.bPnLwnZNi5LVM.qL3tHOgcLh.SCq"], ["created_at", "2015-11-09 14:54:08.782200"], ["updated_at", "2015-11-09 14:54:08.782200"]]
+  [1m[36m (57.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199452@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Barbara Boehm"], ["email", "levanhoat2008199452@gmail.com"], ["password_digest", "$2a$10$IYC3ubxJUB7GKKDwrdmf2OWGeh3qkp0JQoaaRg.shzdVUYa6wAgR2"], ["created_at", "2015-11-09 14:54:08.914429"], ["updated_at", "2015-11-09 14:54:08.914429"]]
+  [1m[36m (81.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199453@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Marcelino Effertz"], ["email", "levanhoat2008199453@gmail.com"], ["password_digest", "$2a$10$qeEcgbe4y78ZxFsAkE58ZOxE4STb0iqgaKsanBUIesrpJbVa3Vl/q"], ["created_at", "2015-11-09 14:54:09.069978"], ["updated_at", "2015-11-09 14:54:09.069978"]]
+  [1m[36m (69.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199454@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Lauren Auer"], ["email", "levanhoat2008199454@gmail.com"], ["password_digest", "$2a$10$h4xSZnuJ11nAqyBgGjQG8OY5GXC.iq1NUtDTPY74plZ2xCSsL59Me"], ["created_at", "2015-11-09 14:54:09.213705"], ["updated_at", "2015-11-09 14:54:09.213705"]]
+  [1m[36m (58.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199455@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Liam Quitzon"], ["email", "levanhoat2008199455@gmail.com"], ["password_digest", "$2a$10$4gE1XAgXjMlARhX2LWWqguJdxds2pfQ7n9Q11MYN5DrU.IfDnMiJO"], ["created_at", "2015-11-09 14:54:09.347547"], ["updated_at", "2015-11-09 14:54:09.347547"]]
+  [1m[36m (59.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199456@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Clifford Kunde"], ["email", "levanhoat2008199456@gmail.com"], ["password_digest", "$2a$10$bhbpIthr681Ej4iV4tsLGu2KADl59WiREL0IILKwzf1Fki7bPtfd."], ["created_at", "2015-11-09 14:54:09.482551"], ["updated_at", "2015-11-09 14:54:09.482551"]]
+  [1m[36m (56.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199457@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Treva Langosh"], ["email", "levanhoat2008199457@gmail.com"], ["password_digest", "$2a$10$sgl1xgNPteFDVhsMtASze.pUnCmDJF0eqMsnEFBfBSAsuTRVnZQwO"], ["created_at", "2015-11-09 14:54:09.614360"], ["updated_at", "2015-11-09 14:54:09.614360"]]
+  [1m[36m (83.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199458@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mrs. Estefania Rolfson"], ["email", "levanhoat2008199458@gmail.com"], ["password_digest", "$2a$10$xed4xwVgOAjWvzXLCQX19u1.HTQ9ywkFiooleNo58aEV4T0m7Hjsi"], ["created_at", "2015-11-09 14:54:09.777869"], ["updated_at", "2015-11-09 14:54:09.777869"]]
+  [1m[36m (109.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199459@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Elva Wiza"], ["email", "levanhoat2008199459@gmail.com"], ["password_digest", "$2a$10$i5WYd0ItNeTxvy7uN1jhIu1ZHcWOdkFWpiFGlOCP0YE2nhdTj784K"], ["created_at", "2015-11-09 14:54:09.961202"], ["updated_at", "2015-11-09 14:54:09.961202"]]
+  [1m[36m (79.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199460@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Dr. Carol Spinka"], ["email", "levanhoat2008199460@gmail.com"], ["password_digest", "$2a$10$ODPKw0OtepL1Y0HOoA2.I.UMgEfuK6HZIIOB0gBgMHaPfS28bxTda"], ["created_at", "2015-11-09 14:54:10.114356"], ["updated_at", "2015-11-09 14:54:10.114356"]]
+  [1m[36m (70.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199461@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Delphine Reichert"], ["email", "levanhoat2008199461@gmail.com"], ["password_digest", "$2a$10$8zYSMddgE6ZLRlhxklKlHuT835a6LziXAsMSlrcLPGzWwcntv.x9i"], ["created_at", "2015-11-09 14:54:10.259540"], ["updated_at", "2015-11-09 14:54:10.259540"]]
+  [1m[36m (70.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199462@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Hortense Zemlak"], ["email", "levanhoat2008199462@gmail.com"], ["password_digest", "$2a$10$v0XbI9gXrMadBFUa3uk8Kuny6LwZaWdpb18lqbGAS4g3z1nad1QOS"], ["created_at", "2015-11-09 14:54:10.402851"], ["updated_at", "2015-11-09 14:54:10.402851"]]
+  [1m[36m (81.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199463@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Piper Hansen DVM"], ["email", "levanhoat2008199463@gmail.com"], ["password_digest", "$2a$10$yaQn.GYh9vMkiIKqNer8Z.7Ft2N/Q3z7soRGxcd/qhexNV8tygnlK"], ["created_at", "2015-11-09 14:54:10.558157"], ["updated_at", "2015-11-09 14:54:10.558157"]]
+  [1m[36m (100.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199464@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Kelvin Waelchi Sr."], ["email", "levanhoat2008199464@gmail.com"], ["password_digest", "$2a$10$7/QuihRXr426A6qGMvVk9.rc1n3GSefC8UHy5SNn./ZtWDVO5Y6WW"], ["created_at", "2015-11-09 14:54:10.731926"], ["updated_at", "2015-11-09 14:54:10.731926"]]
+  [1m[36m (75.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199465@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Conner Schneider"], ["email", "levanhoat2008199465@gmail.com"], ["password_digest", "$2a$10$VYDWwXDW9jzTxZrAxDHfQubdEt8YMsDJb.Ng4r3wlZVRcIceF8j66"], ["created_at", "2015-11-09 14:54:10.880655"], ["updated_at", "2015-11-09 14:54:10.880655"]]
+  [1m[36m (69.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199466@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Ebony Mertz"], ["email", "levanhoat2008199466@gmail.com"], ["password_digest", "$2a$10$77Jv/PktSW.M3puVqHqFo.B.qBEurUYdTWSbG/evbODPiTTaRkA2C"], ["created_at", "2015-11-09 14:54:11.033489"], ["updated_at", "2015-11-09 14:54:11.033489"]]
+  [1m[36m (73.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199467@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Torrance Kuvalis"], ["email", "levanhoat2008199467@gmail.com"], ["password_digest", "$2a$10$8CJ5fsY4ERT70jg4L3Dd9ee9f7lte0UBIsjXfyio3lMXd4CMU14D2"], ["created_at", "2015-11-09 14:54:11.183408"], ["updated_at", "2015-11-09 14:54:11.183408"]]
+  [1m[36m (68.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199468@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mariano Hermiston"], ["email", "levanhoat2008199468@gmail.com"], ["password_digest", "$2a$10$sYB0qkdeBPWY5cjrvVePzeOQg0nkE63Ctahi7JfFBeXIVoVEUFKXy"], ["created_at", "2015-11-09 14:54:11.330603"], ["updated_at", "2015-11-09 14:54:11.330603"]]
+  [1m[36m (95.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199469@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Keira Cronin"], ["email", "levanhoat2008199469@gmail.com"], ["password_digest", "$2a$10$Vh0MIj2IK4C272KhesEavuAI6R0ntMWQabA.shviJvo3ci9Fkv8o6"], ["created_at", "2015-11-09 14:54:11.500659"], ["updated_at", "2015-11-09 14:54:11.500659"]]
+  [1m[36m (73.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199470@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Loma Beatty III"], ["email", "levanhoat2008199470@gmail.com"], ["password_digest", "$2a$10$SilYMbWz2ERYl9Rpmkekh.nJcim/2birHprLH4IOTnS3m1A0N6Whm"], ["created_at", "2015-11-09 14:54:11.650238"], ["updated_at", "2015-11-09 14:54:11.650238"]]
+  [1m[36m (57.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199471@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Jazmyn Anderson"], ["email", "levanhoat2008199471@gmail.com"], ["password_digest", "$2a$10$Dil.ksy56hyZ7eWyixdDK.DrUihJz6TRLRlKh8398qJQQedSYS6wC"], ["created_at", "2015-11-09 14:54:11.781592"], ["updated_at", "2015-11-09 14:54:11.781592"]]
+  [1m[36m (59.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199472@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Jedidiah Davis"], ["email", "levanhoat2008199472@gmail.com"], ["password_digest", "$2a$10$eC0Jt7jRi3fJyHaHK068oeReX7/eYWUaejF6OBFcJoE/oTrvQGDAe"], ["created_at", "2015-11-09 14:54:11.923369"], ["updated_at", "2015-11-09 14:54:11.923369"]]
+  [1m[36m (73.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199473@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Donna Baumbach"], ["email", "levanhoat2008199473@gmail.com"], ["password_digest", "$2a$10$.8TvP17581g9nf00LwspFOOei80R8Otk9UrqW/6r8HF9tGhVo6mSO"], ["created_at", "2015-11-09 14:54:12.070108"], ["updated_at", "2015-11-09 14:54:12.070108"]]
+  [1m[36m (81.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199474@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Dustin Zemlak"], ["email", "levanhoat2008199474@gmail.com"], ["password_digest", "$2a$10$GbTqCN3LFmtftMcEwpI8feloisOWETQpJtGFIOnCc5tt7mRdZTQsi"], ["created_at", "2015-11-09 14:54:12.227821"], ["updated_at", "2015-11-09 14:54:12.227821"]]
+  [1m[36m (68.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199475@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Robyn Price"], ["email", "levanhoat2008199475@gmail.com"], ["password_digest", "$2a$10$itNfYkS1xqMULulXifAyB.I6THNjKkZ94f9zgCUXQnQJbdOnB1N9O"], ["created_at", "2015-11-09 14:54:12.370389"], ["updated_at", "2015-11-09 14:54:12.370389"]]
+  [1m[36m (70.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199476@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Dr. Flavio Donnelly"], ["email", "levanhoat2008199476@gmail.com"], ["password_digest", "$2a$10$bGWA2b8MD7RYnXC65ok2FuWnJPEVTrid0ssvYil/cRQ/OeV/g6pOy"], ["created_at", "2015-11-09 14:54:12.514405"], ["updated_at", "2015-11-09 14:54:12.514405"]]
+  [1m[36m (58.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199477@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Emiliano Mills II"], ["email", "levanhoat2008199477@gmail.com"], ["password_digest", "$2a$10$RxoSizvRAa6wLJkNOjjch.90CaOtwRAu6/w7NZL58DHruuoiEdyhG"], ["created_at", "2015-11-09 14:54:12.648671"], ["updated_at", "2015-11-09 14:54:12.648671"]]
+  [1m[36m (58.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199478@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Jamel Schoen"], ["email", "levanhoat2008199478@gmail.com"], ["password_digest", "$2a$10$UeiIKKq6g47u3tbbQHQ1GOClil.KPo1Pa/W4MPCt5yU27L9p2lGrq"], ["created_at", "2015-11-09 14:54:12.782501"], ["updated_at", "2015-11-09 14:54:12.782501"]]
+  [1m[36m (82.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199479@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Ms. Mafalda Sanford"], ["email", "levanhoat2008199479@gmail.com"], ["password_digest", "$2a$10$4zTXs7lph3DGf65OWFJ07OP1S0glWNbv041LhOTgXDthA9mG6g1wy"], ["created_at", "2015-11-09 14:54:12.939083"], ["updated_at", "2015-11-09 14:54:12.939083"]]
+  [1m[36m (80.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199480@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Madyson Aufderhar IV"], ["email", "levanhoat2008199480@gmail.com"], ["password_digest", "$2a$10$v..eJXXCdHXOZ3an7kL1r.w.HA67b98ZyC1iwUSxQiu6snF7btXkK"], ["created_at", "2015-11-09 14:54:13.095865"], ["updated_at", "2015-11-09 14:54:13.095865"]]
+  [1m[36m (68.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199481@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mr. Rafaela Schuppe"], ["email", "levanhoat2008199481@gmail.com"], ["password_digest", "$2a$10$IfvquwPCZP0kz9x99eGnBupRRTfA5/gdB3cA6uh9f1Cwh/pGyKEdG"], ["created_at", "2015-11-09 14:54:13.239597"], ["updated_at", "2015-11-09 14:54:13.239597"]]
+  [1m[36m (57.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199482@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mrs. Elvera Parisian"], ["email", "levanhoat2008199482@gmail.com"], ["password_digest", "$2a$10$h5kfLUlkcbeIUhQh1GVrPuf9eZZYHbvCGrI9/5FXzvWR4TDp5xhrW"], ["created_at", "2015-11-09 14:54:13.376912"], ["updated_at", "2015-11-09 14:54:13.376912"]]
+  [1m[36m (76.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199483@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Ivy Jacobson"], ["email", "levanhoat2008199483@gmail.com"], ["password_digest", "$2a$10$SFsRHXXPNdV8saTOiVGq.efjOhOu3JWNpCoF2zwzROPCLwziTZ1bS"], ["created_at", "2015-11-09 14:54:13.528018"], ["updated_at", "2015-11-09 14:54:13.528018"]]
+  [1m[36m (95.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199484@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Roman Schowalter"], ["email", "levanhoat2008199484@gmail.com"], ["password_digest", "$2a$10$lEdjRLuFUFAjx4J2/D/dfOW5h/8A73lmm3yJklFN9Ekziaoc.jgua"], ["created_at", "2015-11-09 14:54:13.697846"], ["updated_at", "2015-11-09 14:54:13.697846"]]
+  [1m[36m (77.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199485@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Ms. Isai Oberbrunner"], ["email", "levanhoat2008199485@gmail.com"], ["password_digest", "$2a$10$WKbYqW9vLzlS6uc2D.y48eEMjG/KHcpYmxrNx.rQ/O9LvDUZRFabK"], ["created_at", "2015-11-09 14:54:13.852167"], ["updated_at", "2015-11-09 14:54:13.852167"]]
+  [1m[36m (78.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199486@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Kody O'Keefe"], ["email", "levanhoat2008199486@gmail.com"], ["password_digest", "$2a$10$5KnxnJgC8Xz0QWulzn6BvOq6Z0gK52aC9CXEdCmPoWU1EsO1HrPMO"], ["created_at", "2015-11-09 14:54:14.004280"], ["updated_at", "2015-11-09 14:54:14.004280"]]
+  [1m[36m (99.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199487@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Miles Wyman"], ["email", "levanhoat2008199487@gmail.com"], ["password_digest", "$2a$10$YmBbAeJekZ8ZABjjWmRvLeKWTD0SwKNd0xpYZHOAnEKW5BV.9Il2K"], ["created_at", "2015-11-09 14:54:14.178065"], ["updated_at", "2015-11-09 14:54:14.178065"]]
+  [1m[36m (63.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199488@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Mrs. Meaghan Medhurst"], ["email", "levanhoat2008199488@gmail.com"], ["password_digest", "$2a$10$0XAEkgJca5O/kDGO33SeNeBDDkF1/.85rla2.WPZMIKM4cdNfMjp2"], ["created_at", "2015-11-09 14:54:14.316435"], ["updated_at", "2015-11-09 14:54:14.316435"]]
+  [1m[36m (87.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199489@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Alvera Feil"], ["email", "levanhoat2008199489@gmail.com"], ["password_digest", "$2a$10$5Ok4zfK2zE3xotCwuapHqezgFpnvsC.2TQIp0Wsrf09UjiPoegzkC"], ["created_at", "2015-11-09 14:54:14.479729"], ["updated_at", "2015-11-09 14:54:14.479729"]]
+  [1m[36m (95.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199490@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Clark Schaefer DVM"], ["email", "levanhoat2008199490@gmail.com"], ["password_digest", "$2a$10$VAKSq85Vz1Vs6M4AXD/uNukgFvrws9Mw//z.QMWHg97cE9Fgm3hia"], ["created_at", "2015-11-09 14:54:14.753663"], ["updated_at", "2015-11-09 14:54:14.753663"]]
+  [1m[36m (116.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199491@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Christelle Abshire"], ["email", "levanhoat2008199491@gmail.com"], ["password_digest", "$2a$10$9fOBUw9VScq3p.8N5YUxAeawqnEIkW/95VU0E4p6nQ0SkO/2l0uQy"], ["created_at", "2015-11-09 14:54:14.958495"], ["updated_at", "2015-11-09 14:54:14.958495"]]
+  [1m[36m (50.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199492@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Caroline Dietrich"], ["email", "levanhoat2008199492@gmail.com"], ["password_digest", "$2a$10$7mU2SWe1WhBeMDQXJ8Jr6.6GyV74eAmUwQZIiz82nP7Ie5LksEytW"], ["created_at", "2015-11-09 14:54:15.088523"], ["updated_at", "2015-11-09 14:54:15.088523"]]
+  [1m[36m (86.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199493@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Weston Funk"], ["email", "levanhoat2008199493@gmail.com"], ["password_digest", "$2a$10$jK3tc7qPPHxAy0tfqyD8O.lQZyDx.JiBgSlaSgpW04CSswQyb6f6K"], ["created_at", "2015-11-09 14:54:15.253708"], ["updated_at", "2015-11-09 14:54:15.253708"]]
+  [1m[36m (77.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199494@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Oral Labadie"], ["email", "levanhoat2008199494@gmail.com"], ["password_digest", "$2a$10$JyrP41US8NsKwr28wi2jVuZ8gveYZ1GW9PMJgUEyKsqR1QjwH0GEa"], ["created_at", "2015-11-09 14:54:15.406658"], ["updated_at", "2015-11-09 14:54:15.406658"]]
+  [1m[36m (269.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199495@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Dr. Trudie Kertzmann"], ["email", "levanhoat2008199495@gmail.com"], ["password_digest", "$2a$10$wRzS/xMwQrRgkbxEkIzgVuKHrMjuUAXE00utYpQ4aWi9cH/ZiqzvS"], ["created_at", "2015-11-09 14:54:15.750948"], ["updated_at", "2015-11-09 14:54:15.750948"]]
+  [1m[36m (47.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199496@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Marley Kutch"], ["email", "levanhoat2008199496@gmail.com"], ["password_digest", "$2a$10$RGl/avszDN5X1ceaSdF.eOLawIg0I81ltwx9TnpzyPbsPY2nUQ7V."], ["created_at", "2015-11-09 14:54:15.873152"], ["updated_at", "2015-11-09 14:54:15.873152"]]
+  [1m[36m (68.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199497@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Porter Lind V"], ["email", "levanhoat2008199497@gmail.com"], ["password_digest", "$2a$10$bD1BckkyqoRoSaDM6ywHaOHfi4h3g1t1prLcUnIVvFiYltKGNMDkO"], ["created_at", "2015-11-09 14:54:16.018514"], ["updated_at", "2015-11-09 14:54:16.018514"]]
+  [1m[36m (57.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199498@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Nelson Dickinson DVM"], ["email", "levanhoat2008199498@gmail.com"], ["password_digest", "$2a$10$1Mli02czF4xPExvEXLjhW.uEBIoWZfGPJyM17b0pfDMUolXSZBAgi"], ["created_at", "2015-11-09 14:54:16.155652"], ["updated_at", "2015-11-09 14:54:16.155652"]]
+  [1m[36m (79.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('levanhoat2008199499@gmail.com') LIMIT 1[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Javon Konopelski"], ["email", "levanhoat2008199499@gmail.com"], ["password_digest", "$2a$10$mEeutxmLf8U6Z09i4yZQ2uOEIMsm/UGrj97Wb/cgYuKS9gw9vPVF2"], ["created_at", "2015-11-09 14:54:16.315999"], ["updated_at", "2015-11-09 14:54:16.315999"]]
+  [1m[36m (49.0ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 21:54:41 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (103.1ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered layouts/_header.html.erb (55.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 260ms (Views: 251.9ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2015-11-09 21:54:44 +0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+E07GOw/SiyJAZBeffBngBQW41tjJqe9pzab8DjyfbYijaSJ4VxxDgJR8CFqVGTCR+wtGNOR8RyO37YlUXbLZQ=="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-09 21:54:44 +0700
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (5.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 97ms (Views: 96.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-11-09 21:54:46 +0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (273.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 340ms (Views: 339.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 127.0.0.1 at 2015-11-09 21:55:04 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NybXf0G43wKhNdFuWmFQ8ks8wYflt/iSWpd5vnwjT+Tt5kjuTNvkICplsRFNxVOwGMYPxFUArjNzflRrFaf5Nw==", "session"=>{"email"=>"levanhoat20081994@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT 1  [["email", "levanhoat20081994@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "remember_digest" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["remember_digest", "$2a$10$L5MZwrdtlpe94Kkt1S2VJ.EkZDx3TDHOlzjotSwVV/Rp1XDnVGKQK"], ["updated_at", "2015-11-09 14:55:04.716577"], ["id", 1]]
+  [1m[36m (91.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 253ms (ActiveRecord: 92.3ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2015-11-09 21:55:04 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 69.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-11-09 21:55:07 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" LIMIT 5 OFFSET 0
+  Rendered users/_user.html.erb (1.8ms)
+  Rendered users/index.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/3" for 127.0.0.1 at 2015-11-09 21:55:11 +0700
+Processing by UsersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UMyfxqkfludy76ViVV7Tlnv5Ev2f0a8v4pGvAI7acCGKDABXpHytxfm/xR1C+tDUKAPcvi9m+Y7LeILV517G8g==", "id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 3]]
+  [1m[36m (108.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users
+Completed 302 Found in 112ms (ActiveRecord: 108.9ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-11-09 21:55:11 +0700
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" LIMIT 5 OFFSET 0
+  Rendered users/_user.html.erb (3.5ms)
+  Rendered users/index.html.erb within layouts/application (12.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 79ms (Views: 77.2ms | ActiveRecord: 0.5ms)
